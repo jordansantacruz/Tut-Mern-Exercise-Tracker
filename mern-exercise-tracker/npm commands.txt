@@ -1,0 +1,20 @@
+node -v
+	test if node is installed
+npx create-react-app mern-exercise-tracker
+	create the skeleton for a react app. npx allows you to run certain commands without installing
+	their parent package first. The project is named mern-exercise-tracker
+npm init
+	create basic package at the current directory
+	(used within backend folder)
+npm install express cors mongoose dotenv
+	installs the listed packages
+	-express: lightweight web framework for node.js
+	-cors: cross-origin-resource-sharing, allows ajax requests to skip the same origin policy
+	and access resources from remote hosts (Atlus, in the case of this project)
+	-mongoose: makes interacting with MongoDB simpler
+	-dotenv: loads environment variables from .env files
+	(used within backend folder)
+npm install -g nodemon
+	installs nodemon globally. 
+	nodemon: tool for node.js that automatically restarts the node application when file 
+	changes are detected
